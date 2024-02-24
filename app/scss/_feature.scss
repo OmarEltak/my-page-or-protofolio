@@ -37,6 +37,11 @@
   &__icon {
     margin-bottom: 1.875rem;
 
+    i{
+      font-size: xx-large;
+      color: red;
+    }
+
     @include breakpoint-up(large){
       margin-bottom: 2.75rem;
     }    
